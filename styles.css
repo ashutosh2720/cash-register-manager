@@ -232,7 +232,7 @@ p{
 }
 body{
 
-    background-color: rgb(2, 2, 20);
+    background-color: rgb(118, 118, 201);
      font-family: sans-serif;
  
  }
@@ -241,7 +241,7 @@ body{
   height: 5vh;
   text-align: center;
   display: flex;
-  background-color: rgb(233, 159, 159);
+  background-color: rgb(159, 215, 233);
   justify-content: center;
   gap: 1px;
   padding-bottom: 8px;
