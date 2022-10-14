@@ -164,15 +164,12 @@
    padding-bottom: 30px;
    position: absolute; }
 body{
-
-        background-color: rgb(2, 2, 20);
+        height:40wh;
+        background-color:white;
          font-family: sans-serif;
     padding-top: 5rem;
-    font-family:'Times New Roman', Times, serif;
-    font: weight 2000px;
-    font-color:black;
+    font-family:'Times New Roman', Times, serif
 
-    margin: 0;
 }
 .container{
     padding: 1em;
@@ -199,9 +196,6 @@ body{
     background-color:#0b0214
     border-radius: 4em;
     font-size: large;
-    
-    
-
 
 }
 
@@ -243,4 +237,16 @@ body{
  
  }
  
- 
+ footer {
+  height: 5vh;
+  text-align: center;
+  display: flex;
+  background-color: rgb(233, 159, 159);
+  justify-content: center;
+  gap: 1px;
+  padding-bottom: 8px;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+
+}
