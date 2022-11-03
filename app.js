@@ -16,10 +16,14 @@ checkButton.addEventListener("click", function validateAmount(){
         if( cashGivenVal >= billAmountVal) {
             const amountToReturn = cashGivenVal - billAmountVal;
             calculateChange(amountToReturn);
-        } else {
+        } 
+        
+        
+        else {
             showMessage("Cash given is less than bill amount");
         }
-    } else {
+    } 
+    else {
         showMessage("Invalid Bill Amount");
     }
 });
